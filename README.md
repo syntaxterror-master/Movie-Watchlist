@@ -32,7 +32,6 @@ Git & GitHub
 
 📁 Project Structure
 
-📂 project-folder
 
 ├── index.html
 

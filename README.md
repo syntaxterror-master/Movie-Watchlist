@@ -33,14 +33,23 @@ Git & GitHub
 📁 Project Structure
 
 📂 project-folder
+
 ├── index.html
+
 ├── watchlist.html
+
 ├── style.css
+
 ├── script.js
+
 ├── watchlist.js
+
 ├── config.js (🔐 ignored via .gitignore)
+
 ├── images/
+
 └── README.md
+
 
 ⚙️ How to Run
 

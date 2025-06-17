@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Movie-Watchlist</title>
 </head>
@@ -20,18 +23,27 @@
   <div class="search-wrapper">
     <div class="search-container">
         <i class="fa-solid fa-magnifying-glass"></i>
-        <input placeholder="Blade Runner" type="text" id="search-bar">
+        <input placeholder="Enter movie name" type="text" id="search-bar">
     </div>
     <button class="search-btn" id="search-btn">Search</button>
   </div>
 
   <main>
-      <div class="main-container">
+      <div id="start-exploring-container" class="start-exploring-container">
         <i class="fa-solid fa-film"></i>
         <h4>Start Exploring</h4>
       </div>
-  </main>
 
-  <script src="script.js"></script>
+      <div id="unable-to-find" class="please-try-another-search-container">
+        <p>Unable to find what you’re looking for. 
+          Please try another search.</p>
+      </div>
+
+      <div id="movie-main-containers" class="movie-main-containers"></div>
+  
+  
+    </main>
+
+  <script type="module" src="script.js"></script>
 </body>
 </html>
